@@ -20,7 +20,6 @@ const Main = () => {
 
   const url = "/video/SPRING_BRAND_BILLBOARD.mp4";
 
-  const [scrollY, setScrollY] = useState(0);
   const videoRef = useRef(null);
   const [bigTextX, setBigTextX] = useState(0);
 
