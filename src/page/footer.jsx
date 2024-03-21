@@ -181,7 +181,7 @@ const Footer = () => {
         animate={inViewSection ? "visible" : "hidden"}
       >
         <motion.img
-          src="/image/star.svg"
+          src="/image/star.png"
           alt="img"
           className="star"
           variants={variants}
