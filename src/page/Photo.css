@@ -127,7 +127,7 @@
 .section9 {
   margin-top: 400px;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   padding-left: 100px;
   position: relative;
 }
@@ -182,7 +182,7 @@
   padding-left: 100px;
   box-sizing: border-box;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -198,6 +198,6 @@
   padding-right: 100px;
   box-sizing: border-box;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
 }
