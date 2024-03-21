@@ -1,0 +1,198 @@
+.section13-wrap {
+  margin-top: 100px;
+  width: 100%;
+  height: auto;
+  background-color: #081f5c;
+  padding: 100px 100px 350px 100px;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin-bottom: 100px;
+}
+
+.mouse {
+  width: 20px;
+  height: 20px;
+  background-color: hotpink;
+  border-radius: 100%;
+}
+
+.sec13-img-wrap {
+  position: relative;
+  margin-right: 50px;
+}
+
+.sticker {
+  width: 300px;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0.5);
+
+  position: absolute;
+}
+
+.sticker1 {
+  left: -100px;
+  transform: rotate(-45deg);
+}
+
+.sticker2 {
+  bottom: 0;
+  right: -100px;
+  transform: rotate(140deg);
+}
+
+.img21 {
+  width: 880px; /* 또는 원하는 너비 */
+  height: auto; /* 높이를 auto로 설정하여 너비에 따라 비율 유지 */
+  object-fit: contain; /* 이미지의 비율을 유지하면서 지정된 너비에 맞춤 */
+}
+
+.sec13-1 {
+  display: flex;
+}
+
+.sec13-text-wrap {
+  -webkit-text-stroke: 1.5px #f7f2eb;
+  color: transparent;
+  font-size: 200px;
+}
+
+.sec13-2024 {
+  position: relative;
+}
+
+.sec13-2024-1,
+.sec13-2024-2,
+.sec13-2024-3,
+.sec13-2024-4 {
+  position: absolute;
+}
+
+.sec13-2024-2 {
+  top: 30px;
+}
+
+.sec13-2024-3 {
+  top: 60px;
+}
+
+.sec13-2024-4 {
+  top: 90px;
+}
+
+.sec13-spring {
+  margin-top: 300px;
+  position: relative;
+}
+
+.sec13-spring-1,
+.sec13-spring-2,
+.sec13-spring-3,
+.sec13-spring-4 {
+  position: absolute;
+}
+
+.sec13-spring-2 {
+  top: 30px;
+}
+
+.sec13-spring-3 {
+  top: 60px;
+}
+
+.sec13-spring-4 {
+  top: 90px;
+}
+
+.sec13-mijoo-wrap {
+  margin-top: 700px;
+  margin-left: 100px;
+  position: relative;
+}
+
+.sec13-mijoo-1,
+.sec13-mijoo-2,
+.sec13-mijoo-3 {
+  width: 400px;
+  border: 2px solid #081f5c;
+  position: absolute;
+}
+
+.sec13-mijoo-2 {
+  top: 40px;
+  left: 40px;
+}
+.sec13-mijoo-3 {
+  top: 80px;
+  left: 80px;
+}
+
+.sec13-img-sticker-wrap {
+  position: relative;
+}
+
+.sec13-img-sticker {
+  width: 500px;
+  height: auto; /* 높이를 auto로 설정하여 너비에 따라 비율 유지 */
+  object-fit: contain; /* 이미지의 비율을 유지하면서 지정된 너비에 맞춤 */
+  position: absolute;
+  top: -500px;
+  left: -70px;
+  transform: rotate(5deg);
+  z-index: 2;
+}
+
+.sec13-star-wrap {
+  position: relative;
+}
+
+.star {
+  position: absolute;
+  top: -400px;
+  z-index: 1;
+}
+
+.sec13-img-wrap-2 {
+  margin-top: 200px;
+  margin-left: 200px;
+  position: relative;
+}
+
+.sticker3 {
+  width: 300px;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+}
+
+.sticker3-1 {
+  top: 400px;
+  left: -150px;
+  transform: rotate(90deg);
+}
+
+.sticker3-2 {
+  bottom: 400px;
+  right: 450px;
+  transform: rotate(90deg);
+}
+
+.img24 {
+  width: 880px; /* 또는 원하는 너비 */
+  height: auto; /* 높이를 auto로 설정하여 너비에 따라 비율 유지 */
+  object-fit: contain; /* 이미지의 비율을 유지하면서 지정된 너비에 맞춤 */
+}
+
+.sec13-img-sticker-wrap2 {
+  position: relative;
+}
+
+.sec13-img-sticker2 {
+  width: 500px;
+  height: auto; /* 높이를 auto로 설정하여 너비에 따라 비율 유지 */
+  object-fit: contain; /* 이미지의 비율을 유지하면서 지정된 너비에 맞춤 */
+  position: absolute;
+  top: -500px;
+  right: 400px;
+  transform: rotate(-10deg);
+  z-index: 1;
+}
