@@ -1,26 +1,6 @@
 import { motion } from "framer-motion";
 import React from "react";
 import { useInView } from "react-intersection-observer";
-import Img16 from "../image/sec10-1.jpg";
-import Img17 from "../image/sec10-2.jpg";
-import Img18 from "../image/sec10-3.jpg";
-import Img19 from "../image/sec11.jpg";
-import Img20 from "../image/sec12.jpg";
-import Img1 from "../image/sec3-1.jpg";
-import Img2 from "../image/sec3-2.jpg";
-import Img3 from "../image/sec4-1.jpg";
-import Img4 from "../image/sec4-2.jpg";
-import Img5 from "../image/sec4-3.jpg";
-import Img6 from "../image/sec5-1.jpg";
-import Img7 from "../image/sec5-2.jpg";
-import Img8 from "../image/sec6-1.jpg";
-import Img9 from "../image/sec6-2.jpg";
-import Img10 from "../image/sec6-3.jpg";
-import Img11 from "../image/sec6-4.jpg";
-import Img12 from "../image/sec7.jpg";
-import Img13 from "../image/sec8.jpg";
-import Img14 from "../image/sec9-1.jpg";
-import Img15 from "../image/sec9-2.jpg";
 import "./Photo.css";
 
 const Photo = () => {
@@ -56,7 +36,7 @@ const Photo = () => {
 
   const { ref: refSection9, inView: inViewSection9 } = useInView({
     triggerOnce: true,
-    threshold: 0.2,
+    threshold: 0.3,
   });
   const { ref: refSection10, inView: inViewSection10 } = useInView({
     triggerOnce: true,
@@ -87,7 +67,7 @@ const Photo = () => {
     <>
       <motion.section className="section3" ref={refSection3}>
         <motion.img
-          src={Img1}
+          src="/image/sec3-1.jpg"
           alt="img"
           className="img1"
           animate={{
@@ -98,7 +78,7 @@ const Photo = () => {
           transition={{ duration: 1, ease: "easeInOut" }}
         />
         <motion.img
-          src={Img2}
+          src="/image/sec3-2.jpg"
           alt="img"
           className="img2"
           animate={{
@@ -120,11 +100,11 @@ const Photo = () => {
           initial={{ y: 300, opacity: 0 }}
           transition={{ duration: 1, ease: "easeInOut" }}
         >
-          <motion.img src={Img3} alt="img3" className="img3" />
+          <motion.img src="image/sec4-1.jpg" alt="img3" className="img3" />
         </motion.div>
         <motion.div className="sec4-img-wrap" ref={refSection5}>
           <motion.img
-            src={Img4}
+            src="/image/sec4-2.jpg"
             alt="img4"
             className="img4"
             animate={{
@@ -135,7 +115,7 @@ const Photo = () => {
             transition={{ delay: 1, duration: 1, ease: "easeInOut" }}
           />
           <motion.img
-            src={Img5}
+            src="/image/sec4-3.jpg"
             alt="img5"
             className="img5"
             animate={{
@@ -150,7 +130,7 @@ const Photo = () => {
 
       <motion.section className="section5" ref={refSection6}>
         <motion.img
-          src={Img7}
+          src="/image/sec5-2.jpg"
           alt="img7"
           className="img7"
           animate={{
@@ -161,7 +141,7 @@ const Photo = () => {
           transition={{ duration: 1, ease: "easeInOut" }}
         />
         <motion.img
-          src={Img6}
+          src="/image/sec5-1.jpg"
           alt="img6"
           className="img6"
           animate={{
@@ -183,16 +163,16 @@ const Photo = () => {
           initial={{ x: "100%", opacity: 1 }} // 초기 오른쪽 위치에서 시작
           transition={{ duration: 2, ease: "easeInOut" }} // 2초 동안 움직임
         >
-          <motion.img src={Img8} alt="img8" className="img8" />
-          <motion.img src={Img9} alt="img9" className="img9" />
-          <motion.img src={Img10} alt="img10" className="img10" />
-          <motion.img src={Img11} alt="img11" className="img11" />
+          <motion.img src="/image/sec6-1.jpg" alt="img8" className="img8" />
+          <motion.img src="/image/sec6-2.jpg" alt="img9" className="img9" />
+          <motion.img src="/image/sec6-3.jpg" alt="img10" className="img10" />
+          <motion.img src="/image/sec6-4.jpg" alt="img11" className="img11" />
         </motion.div>
       </motion.section>
 
       <motion.section className="section7" ref={refSection8}>
         <motion.img
-          src={Img12}
+          src="/image/sec7.jpg"
           alt="img12"
           className="img12"
           animate={{
@@ -206,21 +186,24 @@ const Photo = () => {
 
       <motion.section className="section8" ref={refSection9}>
         <motion.img
-          src={Img13}
+          src="/image/sec8.jpg"
           alt="img13"
           className="img13"
           animate={{
             y: inViewSection9 ? 0 : 100,
             opacity: inViewSection9 ? 1 : 0,
           }}
-          initial={{ y: 500, opacity: 0 }}
-          transition={{ duration: 2, ease: "easeInOut" }}
+          initial={{ y: 800, opacity: 0 }}
+          transition={{ duration: 1, ease: "easeInOut" }}
         />
+        <motion.div className="sec8-text-wrap">
+          <motion.img className="sec8-text" src="/image/3.png" alt="logo" />
+        </motion.div>
       </motion.section>
 
       <motion.section className="section9" ref={refSection10}>
         <motion.img
-          src={Img14}
+          src="/image/sec9-1.jpg"
           alt="img14"
           className="img14"
           animate={{
@@ -231,7 +214,7 @@ const Photo = () => {
           transition={{ duration: 1, ease: "easeInOut" }}
         />
         <motion.img
-          src={Img15}
+          src="/image/sec9-2.jpg"
           alt="img15"
           className="img15"
           ref={refSection11}
@@ -247,7 +230,7 @@ const Photo = () => {
       <motion.section className="section10">
         <motion.div className="sec10-img">
           <motion.img
-            src={Img16}
+            src="/image/sec10-1.jpg"
             alt="img16"
             className="img16"
             ref={refSection12}
@@ -260,7 +243,7 @@ const Photo = () => {
           />
           <motion.div className="sec10-img-wrap" ref={refSection13}>
             <motion.img
-              src={Img17}
+              src="/image/sec10-2.jpg"
               alt="img17"
               className="img17"
               animate={{
@@ -271,7 +254,7 @@ const Photo = () => {
               transition={{ delay: 1.2, duration: 1, ease: "easeInOut" }}
             />
             <motion.img
-              src={Img18}
+              src="/image/sec10-3.jpg"
               alt="img18"
               className="img18"
               animate={{
@@ -287,7 +270,7 @@ const Photo = () => {
 
       <motion.section className="section11" ref={refSection14}>
         <motion.img
-          src={Img19}
+          src="/image/sec11.jpg"
           alt="img19"
           className="img19"
           animate={{
@@ -300,7 +283,7 @@ const Photo = () => {
       </motion.section>
       <motion.section className="section12" ref={refSection15}>
         <motion.img
-          src={Img20}
+          src="/image/sec12.jpg"
           alt="img20"
           className="img20"
           animate={{

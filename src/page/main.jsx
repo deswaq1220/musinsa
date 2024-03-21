@@ -1,7 +1,5 @@
 import { motion } from "framer-motion";
 import React, { useEffect, useRef, useState } from "react";
-import JOO from "../image/sec1Joo.png";
-import MIJOO from "../image/sec1Mi.png";
 import "./main.css";
 
 const Main = () => {
@@ -90,7 +88,7 @@ const Main = () => {
           </div>
 
           <motion.img
-            src={JOO}
+            src="/image/sec1Joo.png"
             alt="joo"
             className="joo"
             initial={baseAnimation.initial}
@@ -119,7 +117,7 @@ const Main = () => {
             </motion.div>
           </div>
           <motion.img
-            src={MIJOO}
+            src="/image/sec1Mi.png"
             alt="mijoo"
             className="mijoo"
             initial={baseAnimation.initial}

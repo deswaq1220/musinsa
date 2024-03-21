@@ -1,12 +1,6 @@
 import { motion, useAnimation } from "framer-motion";
 import React, { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
-import Img21 from "../image/sec13.jpg";
-import Img22 from "../image/sec14.jpg";
-import Img23 from "../image/sec15.png";
-import Img24 from "../image/sec16.jpg";
-import Img25 from "../image/sec17.png";
-import Star from "../image/star.svg";
 import "./footer.css";
 const Footer = () => {
   const { ref: refSection, inView: inViewSection } = useInView({
@@ -72,7 +66,7 @@ const Footer = () => {
           <motion.img
             className="img21"
             alt="img21"
-            src={Img21}
+            src="/image/sec13.jpg"
             variants={variants}
           />
         </motion.div>
@@ -142,21 +136,21 @@ const Footer = () => {
         <motion.div className="sec13-mijoo-wrap">
           <motion.img
             className="sec13-mijoo-1"
-            src={Img22}
+            src="/image/sec14.jpg"
             alt="mijoo"
             variants={variants}
             transition={{ delay: 2.6, duration: 0 }}
           />
           <motion.img
             className="sec13-mijoo-2"
-            src={Img22}
+            src="/image/sec14.jpg"
             alt="mijoo"
             variants={variants}
             transition={{ delay: 2.8, duration: 0 }}
           />
           <motion.img
             className="sec13-mijoo-3"
-            src={Img22}
+            src="/image/sec14.jpg"
             alt="mijoo"
             variants={variants}
             transition={{ delay: 3, duration: 0 }}
@@ -172,7 +166,7 @@ const Footer = () => {
       >
         <motion.img
           className="sec13-img-sticker img-sticker1"
-          src={Img23}
+          src="/image/sec15.png"
           alt="img"
           variants={variants}
           animate={controls2}
@@ -187,7 +181,7 @@ const Footer = () => {
         animate={inViewSection ? "visible" : "hidden"}
       >
         <motion.img
-          src={Star}
+          src="/image/star.svg"
           alt="img"
           className="star"
           variants={variants}
@@ -214,7 +208,7 @@ const Footer = () => {
         <motion.img
           className="img24"
           alt="img24"
-          src={Img24}
+          src="/image/sec16.jpg"
           variants={variants}
           transition={{ delay: 3.4, duration: 0 }}
         />
@@ -228,7 +222,7 @@ const Footer = () => {
       >
         <motion.img
           className="sec13-img-sticker2 img-sticker2"
-          src={Img25}
+          src="/image/sec17.png"
           alt="img"
           variants={variants}
           animate={controls}

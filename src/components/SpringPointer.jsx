@@ -22,10 +22,10 @@ const SpringPointer = () => {
   return (
     <motion.div
       style={{
-        width: "25px",
-        height: "25px",
+        width: "10px",
+        height: "10px",
         borderRadius: "50%",
-        backgroundColor: "#ff0078",
+        backgroundColor: "#fa9ebc",
         position: "fixed",
         zIndex: 9999,
         x: mousePosition.x - 25, // 중앙 정렬을 위해 크기의 절반만큼 오프셋

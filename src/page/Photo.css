@@ -111,6 +111,11 @@
   margin-top: 500px;
   padding-left: 100px;
   box-sizing: border-box;
+  display: flex;
+}
+
+.sec8-text {
+  object-fit: contain;
 }
 
 .img13 {

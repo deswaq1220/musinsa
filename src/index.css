@@ -7,6 +7,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #f7f2eb;
   height: 1000vh;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera*/
 }
 
 code {
