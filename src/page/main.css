@@ -95,12 +95,14 @@ li {
 
 .start {
   display: grid;
-  justify-items: start;
+  /* justify-items: start; */
+  justify-content: flex-start;
 }
 
 .end {
   display: grid;
-  justify-items: end;
+  /* justify-items: end; */
+  justify-content: flex-end;
 }
 
 .spring {
